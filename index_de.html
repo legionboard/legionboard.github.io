@@ -6,13 +6,16 @@
 -->
 <html>
 	<head>
-		<title>LegionBoard</title>
+		<title>LegionBoard - Freies Vertretungsplansystem für Schulen</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<meta name="description" content="LegionBoard ist das Vertretungsplansystem für Ihre Schule. Frei und Open Source. Zeitgemäß. Auf jedem Gerät.">
+		<meta name="keywords" content="LegionBoard,Vertretungsplan,System,Schule,Open,Source,FOSS,Nico,Alt">
+		<meta name="author" content="Nico Alt">
 	</head>
 	<body class="landing">
 		<div id="page-wrapper">
@@ -22,20 +25,16 @@
 					<h1 id="logo"><a href="index_de.html">LegionBoard</a></h1>
 					<nav id="nav">
 						<ul>
+							<li><a href="index.html"><i><b>EN</b></i></a></li>
+							<li><a href="https://altnico.github.io/">Über den Entwickler</a></li>
 							<li>
-								<a href="index_de.html">Home</a>
+								<a href="https://gitlab.com/groups/legionboard">Unterstützen</a>
 								<ul>
-									<li><a href="index.html">English</a></li>
+									<li><a href="https://gitlab.com/legionboard/heart" class="scrolly">Heart (API)</a></li>
+									<li><a href="https://gitlab.com/legionboard/eye" class="scrolly">Eye (JavaScript client)</a></li>
+									<li><a href="https://gitlab.com/legionboard/kiss" class="scrolly">KISS (simple JavaScript client)</a></li>
 								</ul>
 							</li>
-							<li>
-								<a href="https://gitlab.com/groups/legionboard">Mitwirken</a>
-								<ul>
-									<li><a href="#Heart" class="scrolly">Heart (API)</a></li>
-									<li><a href="#Eye" class="scrolly">Eye (JavaScript client)</a></li>
-								</ul>
-							</li>
-							<li><a href="https://altnico.github.io/">Von wem?</a></li>
 							<li><a href="kiss/index.html">KISS</a></li>
 							<li><a href="#Download" class="button special scrolly">Herunterladen</a></li>
 						</ul>
@@ -46,8 +45,8 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>Ihr Änderungenverwaltungssystem</h2>
-							<p>LegionBoard ist das Änderungenverwaltungssystem für Ihre Schule.<br />
+							<h2>Freies Vertretungsplansystem</h2>
+							<p>LegionBoard ist das Vertretungsplansystem für Ihre Schule.<br />
 							Frei und Open Source. Zeitgemäß. Auf jedem Gerät.</p>
 						</header>
 						<span class="image"><img src="images/legionboard.png" alt="LegionBoard logo" /></span>
@@ -116,12 +115,125 @@
 							<p>Basierend auf den neusten Technologien: HTML5, CSS3 und JavaScript.</p>
 						</header>
 						<p>Das ist der Hauptclient von LegionBoard und hat jederzeit volle Unterstützung für
-						alle Funktionen von Heart. Es ist eine sogenannte "statische" Webseite und erzeugt
-						somit keine weitere Arbeit für Ihren Server, da alles in den Browsern der Benutzer
-						verarbeitet wird.</p>
+						alle Funktionen von Heart.</p>
 						<ul class="actions">
 							<li><a href="https://gitlab.com/legionboard/eye" class="button">Mehr erfahren</a></li>
 						</ul>
+					</div>
+					<a href="#Screenshots" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Screenshots -->
+				<section id="Screenshots" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Screenshots</h2>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<header>
+									<h3>Vertretungsplan-Ansicht für Schüler</h3>
+									<p>
+										Die zentrale Ansicht von LegionBoard. Hier werden standardmäßig die Ausfälle, Vertretungen und Informationen
+										der nächsten sieben Tage, sortiert nach dem Datum, angezeigt. Die Anzeige kann durch das Datum, Kurse und
+										Lehrer gefiltert werden.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/changes-show-student.png">
+										<span class="image fit">
+												<img src="images/screenshots/changes-show-student.png" alt="Vertretungsplan-Ansicht für Schüler" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Änderungen erstellen</h3>
+									<p>
+										Hier können Sie Änderungen erstellen. Das können Ausfälle, Vertretungen oder Informationen sein, die Sie mit
+										Lehrern und Kursen verbinden können. Es ist möglich, einen Grund und einen privaten Text mit der Änderung
+										zu verbinden, die dann vor den Schülern verborgen und nur berechtigten Personen angezeigt werden.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/changes-create.png">
+										<span class="image fit">
+												<img src="images/screenshots/changes-create.png" alt="Änderungen erstellen" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Vertretungsplan-Ansicht für Sekretariat/Admin</h3>
+									<p>
+										Die Vertretungsplan-Ansicht für das Sekretariat unterscheidet sich dahingehend, dass Informationen wie
+										ein Grund oder ein privater Text angezeigt werden. Außerdem können Sie jede Änderung spielend einfach
+										bearbeiten oder löschen, indem Sie einfach auf das entsprechende Symbol neben der Änderung klicken.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/changes-show-admin.png">
+										<span class="image fit">
+												<img src="images/screenshots/changes-show-admin.png" alt="Vertretungsplan-Ansicht für Sekretariat/Admin" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Kurse anzeigen</h3>
+									<p>
+										Wenn Sie sich die Kurse anzeigen lassen, können Sie diese, ähnlich wie die Änderungen, durch einen Klick
+										auf das Symbol neben dem Kurs bearbeiten oder löschen. Wenn der Benutzer dazu berechtigt ist, werden
+										zusätzlich zu den dargestellten Informationen noch die Zeiten der Erstellung und der letzten Bearbeitung
+										eines Kurses angezeigt.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/courses-show.png">
+										<span class="image fit">
+												<img src="images/screenshots/courses-show.png" alt="Kurse anzeigen" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Kurse erstellen</h3>
+									<p>
+										Bevor Sie eine Änderung mit einem Kurs verbinden können, müssen Sie diesen erst separat erstellen.
+										Das hat den Vorteil, dass Sie ihn später nur anklicken müssen und auch die Änderungen nach ihm filtern
+										können.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/courses-create.png">
+										<span class="image fit">
+												<img src="images/screenshots/courses-create.png" alt="Kurse erstellen" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Lehrer bearbeiten und archivieren</h3>
+									<p>
+										Wenn Sie einmal eine Änderung mit einem Lehrer verbunden haben, können Sie diesen später nicht einfach löschen.
+										Stattdessen müssen Sie ihn archivieren, was dazu führt, dass er in der Auswahl beim Erstellen und Filtern von
+										Änderungen nicht mehr angezeigt wird.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/teachers-edit.png">
+										<span class="image fit">
+												<img src="images/screenshots/teachers-edit.png" alt="Lehrer bearbeiten und archivieren" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Lehrer anzeigen</h3>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/teachers-show.png">
+										<span class="image fit">
+												<img src="images/screenshots/teachers-show.png" alt="Lehrer anzeigen" />
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 					<a href="#Points" class="goto-next scrolly">Next</a>
 				</section>
@@ -148,7 +260,7 @@
 								<section class="4u$ 6u(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-paper-plane"></span>
 									<h3>Überall</h3>
-									<p>Dank Heart können die Änderungen überall und auf jedem Gerät mit nur wenig Datenverbrauch angesehen werden.</p>
+									<p>Die Änderungen können überall und auf jedem Gerät mit nur wenig Datenverbrauch angesehen werden.</p>
 								</section>
 								<section class="4u 6u$(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-flask"></span>
@@ -158,7 +270,7 @@
 								<section class="4u 6u(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-area-chart"></span>
 									<h3>Ressourceneffizient</h3>
-									<p>Verglichen mit anderen Lösungen wie zum Beispiel den PDF-Dateien ist LegionBoard sehr ressourceneffizient und verbraucht nur sehr wenig Daten.</p>
+									<p>Verglichen mit anderen Lösungen wie zum Beispiel PDF-Dateien ist LegionBoard sehr ressourceneffizient und verbraucht nur sehr wenig Daten.</p>
 								</section>
 								<section class="4u$ 6u$(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-lock"></span>
@@ -169,7 +281,7 @@
 						</div>
 						<footer class="major">
 							<ul class="actions">
-								<li><a href="#Download" class="button scrolly">Überredet? Laden Sie es nun herunter!</a></li>
+								<li><a href="#Download" class="button scrolly">Überzeugt? Laden Sie LegionBoard nun herunter!</a></li>
 							</ul>
 						</footer>
 					</div>
@@ -180,11 +292,11 @@
 					<div class="container">
 						<header>
 							<h2>LegionBoard herunterladen</h2>
-							<p>Um ihr eigenes Änderungenverwaltungssystem zu starten,
+							<p>Um ihr eigenes Vertretungsplansystem zu starten,
 							müssen Sie nur Heart und Eye herunterladen und auf Ihrem
 							Server installieren.</p>
-							<p>Falls Sie Fragen haben, senden Sie mir einfach eine
-							<a href="mailto:nicoalt@posteo.org?subject=LegionBoard&body=Hi Nico,%0D%0A%0D%0AIch habe Interesse an LegionBoard.%0D%0A%0D%0A" style="color: white">E-Mail</a>!</p>
+							<p>Falls Sie eine Frage haben oder Unterstützung benötigen, senden Sie mir einfach eine
+							<a href="mailto:nicoalt@posteo.org?subject=LegionBoard" style="color: white">E-Mail</a>!</p>
 						</header>
 						<ul class="actions">
 							<li><a href="https://gitlab.com/legionboard/heart/tags" class="button fit" target="_blank">LegionBoard Heart</a></li>

@@ -6,13 +6,16 @@
 -->
 <html>
 	<head>
-		<title>LegionBoard</title>
+		<title>LegionBoard - Free changes management system for schools</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<meta name="description" content="LegionBoard is the changes management system for your school. Free and open source. Up-to-date. On every device.">
+		<meta name="keywords" content="LegionBoard,Changes,Management,System,School,Open,Source,FOSS,Nico,Alt">
+		<meta name="author" content="Nico Alt">
 	</head>
 	<body class="landing">
 		<div id="page-wrapper">
@@ -22,20 +25,16 @@
 					<h1 id="logo"><a href="index.html">LegionBoard</a></h1>
 					<nav id="nav">
 						<ul>
-							<li>
-								<a href="index.html">Home</a>
-								<ul>
-									<li><a href="index_de.html">Deutsch</a></li>
-								</ul>
-							</li>
+							<li><a href="index_de.html"><i><b>DE</b></i></a></li>
+							<li><a href="https://altnico.github.io/">About the developer</a></li>
 							<li>
 								<a href="https://gitlab.com/groups/legionboard">Contribute</a>
 								<ul>
-									<li><a href="#Heart" class="scrolly">Heart (API)</a></li>
-									<li><a href="#Eye" class="scrolly">Eye (JavaScript client)</a></li>
+									<li><a href="https://gitlab.com/legionboard/heart" class="scrolly">Heart (API)</a></li>
+									<li><a href="https://gitlab.com/legionboard/eye" class="scrolly">Eye (JavaScript client)</a></li>
+									<li><a href="https://gitlab.com/legionboard/kiss" class="scrolly">KISS (simple JavaScript client)</a></li>
 								</ul>
 							</li>
-							<li><a href="https://altnico.github.io/">Who made this?</a></li>
 							<li><a href="kiss/index.html">KISS</a></li>
 							<li><a href="#Download" class="button special scrolly">Download</a></li>
 						</ul>
@@ -46,7 +45,7 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>Your changes management system</h2>
+							<h2>Free changes management system</h2>
 							<p>LegionBoard is the changes management system for your school.<br />
 							Free and open source. Up-to-date. On every device.</p>
 						</header>
@@ -112,10 +111,125 @@
 							<h2>Eye: Good-looking web client</h2>
 							<p>Based on the newest technologies: HTML5, CSS3 and JavaScript.</p>
 						</header>
-						<p>This is the main client for LegionBoard and always supports every feature of Heart. It is so called "static", so there is no more work for your server as everything is done by the browsers of the users.</p>
+						<p>This is the main client for LegionBoard and always supports every feature of Heart.</p>
 						<ul class="actions">
 							<li><a href="https://gitlab.com/legionboard/eye" class="button">Learn More</a></li>
 						</ul>
+					</div>
+					<a href="#Screenshots" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Screenshots -->
+				<section id="Screenshots" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Screenshots (German)</h2>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<header>
+									<h3>Vertretungsplan-Ansicht für Schüler</h3>
+									<p>
+										Die zentrale Ansicht von LegionBoard. Hier werden standardmäßig die Ausfälle, Vertretungen und Informationen
+										der nächsten sieben Tage, sortiert nach dem Datum, angezeigt. Die Anzeige kann durch das Datum, Kurse und
+										Lehrer gefiltert werden.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/changes-show-student.png">
+										<span class="image fit">
+												<img src="images/screenshots/changes-show-student.png" alt="Vertretungsplan-Ansicht für Schüler" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Änderungen erstellen</h3>
+									<p>
+										Hier können Sie Änderungen erstellen. Das können Ausfälle, Vertretungen oder Informationen sein, die Sie mit
+										Lehrern und Kursen verbinden können. Es ist möglich, einen Grund und einen privaten Text mit der Änderung
+										zu verbinden, die dann vor den Schülern verborgen und nur berechtigten Personen angezeigt werden.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/changes-create.png">
+										<span class="image fit">
+												<img src="images/screenshots/changes-create.png" alt="Änderungen erstellen" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Vertretungsplan-Ansicht für Sekretariat/Admin</h3>
+									<p>
+										Die Vertretungsplan-Ansicht für das Sekretariat unterscheidet sich dahingehend, dass Informationen wie
+										ein Grund oder ein privater Text angezeigt werden. Außerdem können Sie jede Änderung spielend einfach
+										bearbeiten oder löschen, indem Sie einfach auf das entsprechende Symbol neben der Änderung klicken.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/changes-show-admin.png">
+										<span class="image fit">
+												<img src="images/screenshots/changes-show-admin.png" alt="Vertretungsplan-Ansicht für Sekretariat/Admin" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Kurse anzeigen</h3>
+									<p>
+										Wenn Sie sich die Kurse anzeigen lassen, können Sie diese, ähnlich wie die Änderungen, durch einen Klick
+										auf das Symbol neben dem Kurs bearbeiten oder löschen. Wenn der Benutzer dazu berechtigt ist, werden
+										zusätzlich zu den dargestellten Informationen noch die Zeiten der Erstellung und der letzten Bearbeitung
+										eines Kurses angezeigt.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/courses-show.png">
+										<span class="image fit">
+												<img src="images/screenshots/courses-show.png" alt="Kurse anzeigen" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Kurse erstellen</h3>
+									<p>
+										Bevor Sie eine Änderung mit einem Kurs verbinden können, müssen Sie diesen erst separat erstellen.
+										Das hat den Vorteil, dass Sie ihn später nur anklicken müssen und auch die Änderungen nach ihm filtern
+										können.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/courses-create.png">
+										<span class="image fit">
+												<img src="images/screenshots/courses-create.png" alt="Kurse erstellen" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Lehrer bearbeiten und archivieren</h3>
+									<p>
+										Wenn Sie einmal eine Änderung mit einem Lehrer verbunden haben, können Sie diesen später nicht einfach löschen.
+										Stattdessen müssen Sie ihn archivieren, was dazu führt, dass er in der Auswahl beim Erstellen und Filtern von
+										Änderungen nicht mehr angezeigt wird.
+									</p>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/teachers-edit.png">
+										<span class="image fit">
+												<img src="images/screenshots/teachers-edit.png" alt="Lehrer bearbeiten und archivieren" />
+										</span>
+									</a>
+								</div>
+								<header>
+									<h3>Lehrer anzeigen</h3>
+								</header>
+								<div class="12u$">
+									<a href="images/screenshots/teachers-show.png">
+										<span class="image fit">
+												<img src="images/screenshots/teachers-show.png" alt="Lehrer anzeigen" />
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 					<a href="#Points" class="goto-next scrolly">Next</a>
 				</section>
@@ -142,7 +256,7 @@
 								<section class="4u$ 6u(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-paper-plane"></span>
 									<h3>Everywhere</h3>
-									<p>Thanks to the Heart of LegionBoard, the changes can be viewed on any device with low traffic usage.</p>
+									<p>All the changes can be viewed on any device with low traffic usage.</p>
 								</section>
 								<section class="4u 6u$(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-flask"></span>
@@ -176,8 +290,8 @@
 							<h2>Download LegionBoard</h2>
 							<p>To start with your own changes management system, you just have to download Heart
 								and Eye and deploy them on your server.</p>
-							<p>If you have any questions, send me an
-							<a href="mailto:nicoalt@posteo.org?subject=LegionBoard&body=Hi Nico,%0D%0A%0D%0AI'm interested in LegionBoard.%0D%0A%0D%0A" style="color: white">E-Mail</a>!</p>
+							<p>If you have any questions or need support, send me an
+							<a href="mailto:nicoalt@posteo.org?subject=LegionBoard" style="color: white">E-Mail</a>!</p>
 						</header>
 						<ul class="actions">
 							<li><a href="https://gitlab.com/legionboard/heart/tags" class="button fit" target="_blank">LegionBoard Heart</a></li>
