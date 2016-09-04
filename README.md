@@ -1,8 +1,8 @@
 # LegionBoard Website
 
 This is the website promoting LegionBoard. It is based on the template
-"Landed" by [HTML5 UP](http://html5up.net) and licensed under the CCA
-3.0 license.
+"Landed" by [HTML5 UP](http://html5up.net), licensed under the CCA
+3.0 license and published [here](http://legionboard.org).
 
 ## Credits
 Icons:
