@@ -1,5 +1,10 @@
 # LegionBoard Website
 
+**Deprecation notice: As of March 2019,
+LegionBoard is officially declared end of life.
+There won't be any further development and
+schools should not consider start using it.**
+
 This is the [website promoting LegionBoard](https://legionboard.dorfbrunnen.eu).
 It is based on the template "Landed" by [HTML5 UP](http://html5up.net)
 and licensed under the CCA 3.0 license.
